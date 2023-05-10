@@ -8,9 +8,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section.about {
+section.about, section.projects {
     background: rgb(0,0,0);
     background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(60,60,60,1) 100%);
+}
+
+section.team {
+    background: rgb(22, 22, 22);
 }
 
 .about-header {
@@ -89,9 +93,16 @@ header .nav-link, header .nav-society-link {
     background: linear-gradient(-135deg, #1A1A1A,#292929 100%);
     border-radius: 50%;
     box-shadow: 0px 0px 15px 5px #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.about-me-content .about-me__header {
+.circle img {
+    width: 190px;
+}
+
+.about-me-content .about-me__header, .team__header, .projects__header {
     color: #70ff00;
     font-weight: bold;
 }
@@ -99,4 +110,19 @@ header .nav-link, header .nav-society-link {
 .about-me-content {
     color: #fff;
     font-size: 1.3em;
+}
+
+.team-content, .projects-content {
+    padding: 120px 50px;
+}
+
+.team-member__image {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member__name {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
 }
