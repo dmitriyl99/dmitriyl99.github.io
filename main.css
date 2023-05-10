@@ -1,0 +1,102 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    color: #fff;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.about {
+    background: rgb(0,0,0);
+    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(60,60,60,1) 100%);
+}
+
+.about-header {
+    display: flex;
+}
+.about-header .about-header__name {
+    color: #fff;
+    font-size: 32px;
+}
+.about-header .about-header__name .first-name {
+    color: #828282;
+}
+
+header .nav-link, header .nav-society-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-society-link {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-society-link img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.about-main-content, .about-me-content {
+    padding: 120px 50px;
+}
+
+.intro__name {
+    font-size: 24px;
+}
+
+.name__open__code, .name__close__code {
+    color: #70ff00;
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.intro__name .position {
+    margin-top: 20px;
+}
+
+.intro__name .experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #828282;
+}
+
+.experience .experience-count, .experience-projects {
+    display: flex;
+    align-items: center;
+}
+
+.experience .experience-count .experience-count__number, .experience-projects__number {
+    font-size: 56px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.experience .experience-count .experience-count__text, .experience-projects__text {
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.circle {
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(-135deg, #1A1A1A,#292929 100%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 5px #1f1f1f;
+}
+
+.about-me-content .about-me__header {
+    color: #70ff00;
+    font-weight: bold;
+}
+
+.about-me-content {
+    color: #fff;
+    font-size: 1.3em;
+}
