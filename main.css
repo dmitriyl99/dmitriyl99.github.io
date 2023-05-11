@@ -135,6 +135,10 @@ header .nav-society-link {
     justify-content: center;
 }
 
+.team-member__image img {
+    width: 200px;
+}
+
 .team-member__name {
     text-align: center;
     font-size: 32px;
@@ -144,7 +148,7 @@ header .nav-society-link {
 .projects-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     margin-top: 30px;
