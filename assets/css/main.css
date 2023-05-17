@@ -120,6 +120,7 @@ header .nav-society-link {
     font-size: 16px;
     font-weight: 300;
     margin-left: 15px;
+    width: 100%;
 }
 
 .nav-society-link {
@@ -135,8 +136,7 @@ header .nav-society-link {
     margin-right: 5px;
 }
 
-.about-main-content,
-.about-me-content {
+.about-main-content {
     padding: 120px 50px;
 }
 
@@ -213,11 +213,9 @@ header .nav-society-link {
     border-top: #f7f7f7 2px solid;
     padding: 10px 20px;
     cursor: pointer;
-    height: 101px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .project-item:hover {
@@ -228,19 +226,18 @@ header .nav-society-link {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    width: 20%;
+    display: flex;
+    align-items: center;
 }
 
 .project-item__description {
     font-size: 14px;
     font-weight: 400;
-    width: 60%;
     text-align: justify;
 }
 
 .project-item__link {
     width: 20%;
-    margin-left: 20px;
     text-align: right;
 }
 
@@ -260,10 +257,64 @@ header .nav-society-link {
     font-weight: 700;
 }
 
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.contactForm .label {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.contactForm .form-control {
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    outline: 0;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+section.contacts {
+    background-color: #303841;
+}
+
+.btn.btn-primary {
+    background-color: #fff;
+    color: #303841;
+    border-color: #fff;
+}
+
+.form-text-success {
+    color: #5ad000;
+    display: none;
+}
+
 
 
 @media only screen and (max-width: 460px) {
-    .experience {
-        flex-direction: column;
+    .about-main-content {
+        padding: 60px 25px;
+    }
+
+    .hero-heading {
+        font-size: 40px;
+    }
+
+    .project-item {
+        padding: 0;
+    }
+
+    .project-item__description, .project-item__link {
+        margin-top: 20px;
     }
 }
