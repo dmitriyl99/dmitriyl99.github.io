@@ -1,0 +1,269 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    color: #303841;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+}
+
+section.team {
+    background: rgb(22, 22, 22);
+}
+
+.about-header {
+    display: flex;
+}
+
+.about-header .about-header__name {
+    font-size: 32px;
+}
+
+.about-header .about-header__name .first-name {
+    color: #828282;
+}
+
+header .nav-link,
+header .nav-society-link {
+    text-decoration: none;
+    color: #303841;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.phone-link {
+    text-decoration: none;
+    color: #303841;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.55;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.hero-heading {
+    line-height: 60px;
+    color: #303841;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.write-button {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    border-width: 1;
+    border-radius: 3px;
+    background-color: #303841;
+    border-color: transparent;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.write-button:hover {
+    color: #fff;
+    background-color: #3b4148;
+}
+
+.name {
+    font-size: 17px;
+    color: #3b4148;
+    font-weight: 600;
+}
+
+.about-me {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.key-features {
+    margin-top: 40px;
+}
+
+.key-features__item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.key-features__item:not(:first-child) {
+    margin-top: 20px;
+}
+
+.dot-wrapper {
+    width: 8px;
+    height: 8px;
+}
+
+.dot {
+    border-width: 2px;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    border-color: #5ad000;
+    border-style: solid;
+}
+
+.key-features__item-text {
+    color: #303841;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.nav-society-link {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-society-link img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.about-main-content,
+.about-me-content {
+    padding: 120px 50px;
+}
+
+.intro__name {
+    font-size: 24px;
+}
+
+.intro__name .position {
+    margin-top: 20px;
+}
+
+.intro__name .experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #828282;
+}
+
+.experience .experience-count,
+.experience-projects {
+    display: flex;
+    align-items: center;
+}
+
+.experience .experience-count .experience-count__number,
+.experience-projects__number {
+    font-size: 56px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.experience .experience-count .experience-count__text,
+.experience-projects__text {
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.about-me-content {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.team-content,
+.projects-content {
+    padding: 120px 50px;
+}
+
+.team-member__image {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member__image img {
+    width: 200px;
+}
+
+.team-member__name {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.team_member__position {
+    font-size: 24px;
+    text-align: center;
+    color: #828282;
+}
+
+.project-items, .project-item {
+    width: 100%;
+}
+
+.project-item {
+    border-top: #f7f7f7 2px solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 101px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-item:hover {
+    background-color: #F9F9F9;
+}
+
+.project-item__name {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+.project-item__description {
+    font-size: 14px;
+    font-weight: 400;
+    width: 60%;
+    text-align: justify;
+}
+
+.project-item__link {
+    width: 20%;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.project-item__link a {
+    text-decoration: none;
+    color: #5ad000;
+    
+}
+
+.modal-content {
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 15px 30px 0 rgba(#000, 0.25);
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 460px) {
+    .experience {
+        flex-direction: column;
+    }
+}
