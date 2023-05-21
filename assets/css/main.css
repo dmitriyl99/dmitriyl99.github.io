@@ -136,7 +136,7 @@ header .nav-society-link {
     margin-right: 5px;
 }
 
-.about-main-content {
+.key-features-content {
     padding: 120px 50px;
 }
 
@@ -302,7 +302,7 @@ section.contacts {
 
 
 @media only screen and (max-width: 460px) {
-    .about-main-content {
+    .key-features-content {
         padding: 60px 25px;
     }
 
